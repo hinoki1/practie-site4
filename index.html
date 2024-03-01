@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico">
+  <title>C Totally</title>
+</head>
+<body>
+
+  <!-- header -->
+
+  <div id="header">
+    <h1><a href="#"><img src="logo.svg"></a></h1>
+
+    <nav class="selects wrapper">
+
+      <div class="select-1">
+        <ul>
+          <li><a href="#">ALL</a></li>
+          <li><a href="#">NEW</a></li>
+          <li><a href="#">VINTAGE</a></li>
+          <li><a href="#">CATEGORY</a></li>
+          <li><a href="#">LOOKBOOK</a></li>
+          <li><a href="#">BLOG</a></li>
+        </ul>
+      </div>
+
+      <div class="select-2">
+        <ul>
+          <li><a href="#">LOGIN</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+  </div>
+
+
+  <!-- main -->
+
+  <div id="main" class="wrapper">
+
+    <div class="picture">
+      <img src="item.jpg" alt="">
+    </div>
+
+    <div class="item-info">
+
+      <h1 class="item-title">
+        TOTALLY Short Sleeve Shirt
+      </h1>
+
+      <p class="text">wrapperをnavにのみ適用させ、headerにborderを適用させたうえで、widthをwrapperよりも少し大きく設定する。すると、文字横幅よりも大きい下線が引けるようになる</p>
+
+      <p class="price">
+        ￥9,999+tax
+      </p>
+
+      <table class="order-table">
+        <thead>
+          <tr>
+            <th class="color">Color</th>
+            <th class="size">Size</th>
+            <th class="quantity"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>White</td>
+            <td>S</td>
+            <td>
+              <select name="quantity-s">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>White</td>
+            <td>M</td>
+            <td>
+              <select name="quantity-m">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>White</td>
+            <td>L</td>
+            <td>
+              <select name="quantity-l">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+       </table>
+
+       <a  class="Cart-btn" href="#">ADD TO CART</a>
+
+       <div class="info">
+        <table>
+         <thead>
+          <tr>
+            <th class="size">Size</th>
+            <th class="chest">Chest</th>
+            <th class="weist">Weist</th>
+            <th class="height">Height</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+            <td class="size-i">S</td>
+            <td>0 ~ 20</td>
+            <td>40 ~ 50</td>
+            <td>0 ~ 10</td>
+          </tr>
+          <tr>
+            <td class="size-i">M</td>
+            <td>20 ~ 40</td>
+            <td>50 ~ 70</td>
+            <td>10 ~ 70</td>
+          </tr>
+          <tr>
+            <td class="size-i">L</td>
+            <td>40 ~ 60</td>
+            <td>70 ~ 99</td>
+            <td>70 ~ 99</td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+    </div>
+  </div>
+  
+  <!-- footer -->
+
+  <footer id="footer">
+    <p>&copy; Hinoki</p>
+  </footer>
+
+</body>
+</html>
